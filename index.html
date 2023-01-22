@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World tour</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+
+    <!-- header section starts  -->
+
+    <header>
+
+        <div id="menu-bar" class="fas fa-bars"></div>
+
+        <a href="#" class="logo"><span>a</span>pna <span>s</span>afar</a>
+        <!-- <a href="#" class="logo"></a> -->
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="./book.html">book</a>
+            <a href="./packages.html">packages</a>
+            <!-- <a href="#services">services</a> -->
+            <a href="./gallery.html">gallery</a>
+            <!-- <a href="#review">review</a> -->
+            <a href="./contact.html">contact</a>
+        </nav>
+
+        <div class="icons">
+            <i class="fas fa-search" id="search-btn"></i>
+            <i class="fas fa-user" id="login-btn"></i>
+        </div>
+
+        <form action="" class="search-bar-container">
+            <input type="search" id="search-bar" placeholder="search here...">
+            <label for="search-bar" class="fas fa-search"></label>
+        </form>
+
+    </header>
+
+    <!-- header section ends -->
+
+    <!-- login form container  -->
+
+    <div class="login-form-container">
+
+        <i class="fas fa-times" id="form-close"></i>
+
+        <form action="">
+            <h3>login</h3>
+            <input type="email" class="box" placeholder="enter your email">
+            <input type="password" class="box" placeholder="enter your password">
+            <input type="submit" value="login now" class="btn">
+            <input type="checkbox" id="remember">
+            <label for="remember">remember me</label>
+            <p>forget password? <a href="#">click here</a></p>
+            <p>don't have and account? <a href="#">register now</a></p>
+        </form>
+
+    </div>
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+
+        <div class="content">
+            <h3>escape and breath the air of new places</h3>
+            <p>and so the advanture begins with us</p>
+            <a href="#" class="btn">search more</a>
+        </div>
+
+        <div class="controls">
+            <span class="vid-btn active" data-src="./images/vid-a.mp4"></span>
+            <span class="vid-btn" data-src="./images/vid-b.mp4"></span>
+            <span class="vid-btn" data-src="./images/vid-c.mp4"></span>
+            <span class="vid-btn" data-src="./images/vid-e.mp4"></span>
+            <span class="vid-btn" data-src="./images/vid-d.mp4"></span>
+        </div>
+
+        <div class="video-container">
+            <video src="./images/vid-a.mp4" id="video-slider" loop autoplay muted></video>
+        </div>
+
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- services section starts  -->
+
+    <section class="services" id="services">
+
+        <h1 class="heading">
+            <span>s</span>
+            <span>e</span>
+            <span>r</span>
+            <span>v</span>
+            <span>i</span>
+            <span>c</span>
+            <span>e</span>
+            <span>s</span>
+        </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <i class="fas fa-hotel"></i>
+                <h3>affordable hotels</h3>
+                <p>Choose From a Wide Range of Properties Which Booking.com Offers! Book Cheap Hotels Online. No
+                    reservation costs. Great rates. Become An Affiliate. Sign Up For Deals.</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-utensils"></i>
+                <h3>food and drinks</h3>
+                <p> We are happy that you found our restaurant and our food and services up to your expectations Many
+                    thanks once again and ...come and enjoy your meal.</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-bullhorn"></i>
+                <h3>safty guide</h3>
+                <p>Share your travel information. Before you leave, share your itinerary with someone you trust.
+                    Research ground transportation.
+                    Familiarize yourself with the destination.</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-globe-asia"></i>
+                <h3>around the world</h3>
+                <p> From requesting time off from work to finding the best travel credit cards and apps to help you
+                    save, here's how to travel the world.</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-plane"></i>
+                <h3>fastest travel</h3>
+                <p>Luckily, there are thousands of travel websites designed to help you find the most unique
+                    accommodations or simply the best deals on flights and lodging</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-hiking"></i>
+                <h3>adventures</h3>
+                <p>10 Incredible Adventure Vacations Around the World · From cage diving with sharks to jumping out of a
+                    plane, these adventure vacations are ...</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- services section ends -->
+
+    <!-- review section starts  -->
+
+    <section class="review" id="review">
+
+        <h1 class="heading">
+            <span>r</span>
+            <span>e</span>
+            <span>v</span>
+            <span>i</span>
+            <span>e</span>
+            <span>w</span>
+        </h1>
+
+        <div class="swiper-container review-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="./images/pic1.png" alt="">
+                        <h3>maria</h3>
+                        <p>The service make my trip provided are the best service as we now it is india's top online
+                            travel platform so they can provide it very goodly and perfectly. In future also on my trips
+                            I always prefer make my trip.</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="./images/pic2.png" alt="">
+                        <h3>thomsan</h3>
+                        <p>I went to kuari pass trek on new years. It was an amazing experience, the coordination was
+                            good. All the staffs and trek leaders were helpful and supportive making it a great trip
+                            overall. Everyone really enjoyed and our safety was ensured</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="./images/pic3.png" alt="">
+                        <h3>aliza</h3>
+                        <p>When I had read reviews about the Thrillophilia, I had some doubt for this. But still I went
+                            for this. I got good experience initially in tour but in Lachen and Lachung the hotels
+                            arrangements were not done properly. So I complained Thrillophilia for</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="./images/pic4.png" alt="">
+                        <h3>john</h3>
+                        <p>I booked 3 seats, two for adults and one for 2 year child. Enough seats were vacant. Inspite
+                            of that one sit was reserved separate not togather. Worst seat arragement I have ever seen.
+                        </p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- review section ends -->
+
+    <!-- brand section  -->
+    <section class="brand-container">
+
+        <div class="swiper-container brand-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="./images/1.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="./images/2.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="./images/3.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="./images/4.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="./images/5.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="./images/6.jpg" alt=""></div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- footer section  -->
+
+    <section class="footer" id="contactFooter">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>about us</h3>
+                <p> We act on the behalf of product providers/principles. Technically, we are an owner or manager of an
+                    agency,we are responsible for advising tourists and selling packages tours/individual components of
+                    travel products.
+
+                </p>
+            </div>
+            <div class="box">
+                <h3>branch locations</h3>
+                <a href="#">india</a>
+                <a href="#">USA</a>
+                <a href="#">japan</a>
+                <a href="#">france</a>
+            </div>
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#">home</a>
+                <a href="#">book</a>
+                <a href="#">packages</a>
+                <a href="#">services</a>
+                <a href="#">gallery</a>
+                <a href="#">review</a>
+                <a href="#">contact</a>
+            </div>
+            <div class="box">
+                <h3>follow us</h3>
+                <a href="#">facebook</a>
+                <a href="#">instagram</a>
+                <a href="#">twitter</a>
+                <a href="#">linkedin</a>
+            </div>
+
+        </div>
+
+        <h1 class="credit"> created by <span> hitesh </span> | all rights reserved! </h1>
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- custom js file link  -->
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
